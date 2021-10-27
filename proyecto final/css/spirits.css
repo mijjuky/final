@@ -94,65 +94,55 @@ h2{
     color: white;
 }
 
-.textoleft{
-    padding: 10px;
-    height: 10px;
-    width: 400px;
-}
-
-.guardianas{
-    width: 1200px;
-    margin: auto;
-    padding-right: 100px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.boton{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    width: 200px;
-    height: 60px;
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(84,9,121,1) 49%, rgba(218,0,255,1) 100%);
-    color: white;
-    font-style: 'Raleway', sans-serif; 
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s ease all;
-    border-radius: 5px;
-    position: relative;
+.espiritus{
     overflow: hidden;
 }
 
-.boton span{
-    position: relative;
-    z-index: 2;
-    transition: .3s ease all;
+.espiritu{
+    width: 17%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
 }
 
-.boton::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,9,121,1) 49%, rgba(218,0,255,1) 100%);
-    position: absolute;
-    z-index: 1;
-    top: -60px;
-    left: 0;
-    transition: .3s ease-in-out all;
+.espiritu{
+    text-align: center;
+    background-color: rgba(226, 116, 248, 0.22);
 }
 
-.boton:hover::after{
-    top: 0;
+.espiritu img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5) ;
+    margin: 10px 0px 16px;
+    max-width: 70%;
+}
 
+.espiritu h5, .espiritu h6{
+    text-align: center;
+    font-weight: normal;
+    color: rgb(160, 94, 81);
+    margin: 0;
+}
+
+.espiritu h5{
+    font-size: 17px;
+}
+
+.espiritu h6{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.espiritu p{
+    font-size: 15px;
+    color: rgb(134, 96, 157);
+    margin: 0 16px 16px;
+}
+
+.persona:first-child{
+    margin-left: 0;
 }
 
 /* fin main */
